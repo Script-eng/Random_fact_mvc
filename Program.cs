@@ -5,7 +5,7 @@ builder.Services.AddControllersWithViews();
 
 // Register HttpClient and JokeService
 builder.Services.AddHttpClient();
-builder.Services.AddScoped<MyMvcApp.Services.JokeService>();
+builder.Services.AddScoped<SimpleApp.Services.JokeService>();
 
 var app = builder.Build();
 
