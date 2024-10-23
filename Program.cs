@@ -3,6 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Register HttpClient and JokeService
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<MyMvcApp.Services.JokeService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -20,8 +24,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// Set the default controller route to Joke
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Joke}/{action=Index}/{id?}");
 
 app.Run();
