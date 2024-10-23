@@ -1,0 +1,9 @@
+<h2>Here are 10 Jokes:</h2>
+<ul>
+@foreach (var joke in Model)
+{
+    <li>
+        <strong>@joke.Setup</strong> - @joke.Punchline
+    </li>
+}
+</ul>

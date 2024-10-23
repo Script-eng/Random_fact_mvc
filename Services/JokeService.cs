@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using SimpleApp.Models;
 
-namespace MyMvcApp.Services
+namespace SimpleApp.Services
 {
     public class JokeService
     {

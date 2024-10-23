@@ -26,6 +26,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Joke/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9rZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Joke/JokeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9rZS9Kb2tlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Joke/RandomJoke.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9rZS9SYW5kb21Kb2tlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
