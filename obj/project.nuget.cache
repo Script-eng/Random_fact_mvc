@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XMa3Bt2wMYw=",
+  "dgSpecHash": "0miO+B8vpM4=",
   "success": true,
   "projectFilePath": "/Users/lesalon/Desktop/MVCapp/SimpleApp/SimpleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/lesalon/.nuget/packages/jokeapi/2.0.1/jokeapi.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

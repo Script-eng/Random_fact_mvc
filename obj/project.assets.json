@@ -1,11 +1,39 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "JokeAPI/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/JokeAPIWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/JokeAPIWrapper.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JokeAPI/2.0.1": {
+      "sha512": "hL3DRZqCFs5ryzogFvIvVA/AgY6QIiH7ETtRO0KmmzhrsUBYBi47VAiU3PQ4JapEsJ+pjNP9vIx0H04oKmZVjQ==",
+      "type": "package",
+      "path": "jokeapi/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "jokeapi.2.0.1.nupkg.sha512",
+        "jokeapi.nuspec",
+        "lib/net6.0/JokeAPIWrapper.dll",
+        "lib/net7.0/JokeAPIWrapper.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "JokeAPI >= 2.0.1"
+    ]
   },
   "packageFolders": {
     "/Users/lesalon/.nuget/packages/": {}
@@ -48,6 +76,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "JokeAPI": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

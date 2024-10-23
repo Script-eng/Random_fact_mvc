@@ -1,0 +1,10 @@
+@model List<SimpleApp.Models.Joke>
+
+<h2>Jokes List</h2>
+<ul>
+    @foreach (var joke in Model)
+    {
+        <li>@joke.Value</li>
+    }
+</ul>
+

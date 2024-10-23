@@ -30,8 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9rZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Joke/JokeList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9rZS9Kb2tlTGlzdC5jc2h0bWw=
+[/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Joke/JokesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9rZS9Kb2tlc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/lesalon/Desktop/MVCapp/SimpleApp/Views/Joke/RandomJoke.cshtml]

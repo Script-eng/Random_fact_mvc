@@ -1,5 +1,5 @@
-<h2>Random Joke</h2>
-<p><strong>@Model.Setup</strong></p>
-<p>@Model.Punchline</p>
+@model SimpleApp.Models.Joke
 
-<a href="/Joke/RandomJoke">Get another random joke</a>
+<h2>Your Random Joke</h2>
+<p>@Model.Value</p>
+<img src="@Model.IconUrl" alt="Joke Icon" />
