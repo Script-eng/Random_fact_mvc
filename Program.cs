@@ -1,12 +1,11 @@
-using JokeAPIWrapper;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Register the JokeService
-builder.Services.AddSingleton<JokeService>();
+
 
 var app = builder.Build();
 

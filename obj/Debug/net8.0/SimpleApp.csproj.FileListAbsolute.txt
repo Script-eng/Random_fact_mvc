@@ -1,8 +1,0 @@
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.csproj.AssemblyReference.cache
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.GeneratedMSBuildEditorConfig.editorconfig
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.AssemblyInfoInputs.cache
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.AssemblyInfo.cs
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.csproj.CoreCompileInputs.cache
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.MvcApplicationPartsAssemblyInfo.cache
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.RazorAssemblyInfo.cache
-/Users/lesalon/Desktop/MVCapp/SimpleApp/obj/Debug/net8.0/SimpleApp.RazorAssemblyInfo.cs
