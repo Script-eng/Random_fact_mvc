@@ -24,14 +24,14 @@ Follow these instructions to set up and run the project locally.
 
 ### Prerequisites
 
-- [.NET 6.0 SDK](https://dotnet.microsoft.com/download)
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download)
 - An IDE like [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Installation
 
 1. **Clone the repository**:
    \`\`\`bash
-   git clone https://github.com/your-username/random-fact-generator.git
+   git clone https://github.com/Script-eng/Random_fact_mvc.git
    cd random-fact-generator
    \`\`\`
 
