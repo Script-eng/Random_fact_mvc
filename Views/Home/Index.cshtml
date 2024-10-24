@@ -2,7 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center" style="margin-top: 50px;">
+    
+    <h2>Random Fact of the Day</h2>
+    <p id="random-fact">@ViewData["RandomFact"]</p> <!-- Display the random fact here -->
+
+    <button id="generate-fact-btn" style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+        Generate New Fact
+    </button>
 </div>
+
+<script>
+    document.getElementById('generate-fact-btn').addEventListener('click', function() {
+        fetch('/Home/GetRandomFact')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('random-fact').innerText = data;
+            });
+    });
+</script>
